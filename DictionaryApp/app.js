@@ -78,6 +78,7 @@ searchbtn.addEventListener('click',function(e){
        console.log(data);
     }
 
+        //to get diffrent type of audio depends on search
     function renderSound(sound1){
         let subfolder = sound1.charAt(0);
         let soundSrc = `https://media.merriam-webster.com/soundc11/${subfolder}/${sound1}.wav?key=${apiKey}`;
